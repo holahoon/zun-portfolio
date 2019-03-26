@@ -1,0 +1,292 @@
+/* project2 intro section */
+#project2-intro-section .role {
+  grid-column: 3 / 4;
+  justify-self: center;
+}
+#project2-intro-section .designer {
+  grid-column: 4 / 6;
+  justify-self: flex-start;
+}
+#project2-intro-section .small-link {
+  grid-column: 6 / 7;
+}
+
+/* === Synopsis section === */
+#synopsis-section {
+  background: #1e1f24;
+}
+#synopsis-section h3 {
+  grid-column: 5 / 7;
+  margin-top: 6.25rem;
+  color: #f2f4f8;
+  font-size: 1.5rem;
+}
+
+#synopsis-section p {
+  grid-column: 5 / 13;
+  margin-top: 1.25rem;
+  color: #b9bfc7;
+  font-size: 1.125rem;
+  font-family: IBMPlexMono-Light;
+  margin-bottom: 6.25rem;
+}
+
+#synopsis-section p a {
+  color: #b9bfc7;
+}
+
+/* === Discovering problems section === */
+#discovering-problems-section h3 {
+  grid-column: 5 / 8;
+  color: #f2f4f8;
+  margin-top: 6.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+#discovering-problems-section p {
+  grid-column: 5 / 13;
+  color: #b9bfc7;
+  margin-bottom: 3.75rem;
+  font-size: 1.125rem;
+}
+
+#discovering-problems-section .img-container {
+  grid-column: 5 / 17;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  margin-bottom: 6.25rem;
+}
+/* #discovering-problems-section .img-container img:first-child {
+  opacity: 1;
+} */
+
+#discovering-problems-section .img-container img {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-out;
+}
+#discovering-problems-section .img-container img:hover {
+  opacity: 1;
+}
+
+/* === Research section === */
+#research-section {
+  background: #1e1f24;
+}
+
+#research-section h3 {
+  grid-column: 5 / 7;
+  margin-top: 6.25rem;
+  margin-bottom: 1.25rem;
+  color: #f2f4f8;
+  font-size: 1.5rem;
+}
+
+#research-section p {
+  grid-column: 5 / 13;
+  color: #b9bfc7;
+  font-size: 1.125rem;
+}
+
+#research-section .research-list {
+  grid-column: 5 / 13;
+  margin-top: 2.5rem;
+  margin-bottom: 5.5rem;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr); */
+}
+.research-list h5 {
+  display: inline-block;
+  background: #ffcfe1;
+  color: #1e1f24;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 0.625rem;
+  margin-bottom: 0.5rem;
+  font-family: TiemposHeadline-Semibold;
+}
+.research-list p {
+  display: inline-block;
+  color: #b9bfc7;
+  font-size: 1.125rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* === Early exploration section === */
+#early-exploration-section2 {
+  background: #13171a;
+}
+
+#early-exploration-section2 h3 {
+  grid-column: 5 / 8;
+  margin-top: 6.25rem;
+  font-size: 1.5rem;
+  color: #d8dce3;
+}
+
+#early-exploration-section2 p {
+  grid-column: 5 / 13;
+  color: #b9bfc7;
+  font-size: 1.125rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3.75rem;
+}
+
+#early-exploration-section2 .img-container {
+  grid-column: 3 / 15;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 2px;
+  margin-bottom: 3.75rem;
+}
+#early-exploration-section2 .img-container img:nth-child(1) {
+  grid-column: 1 / 4;
+}
+#early-exploration-section2 .img-container img:nth-child(2) {
+  grid-column: 4 / 7;
+}
+#early-exploration-section2 .img-container img:nth-child(3) {
+  grid-column: 7 / 10;
+}
+#early-exploration-section2 .img-container img:nth-child(4) {
+  grid-column: 10 / 13;
+}
+
+/* === Big img section 1 === */
+#big-img-section1 {
+  background: #1e1f24;
+}
+
+#big-img-section1 img {
+  grid-column: 1 / 17;
+  justify-self: center;
+}
+
+/* === Design started section === */
+#design-started-section {
+  background: #1e1f24;
+  position: relative;
+}
+
+#design-started-section h3 {
+  grid-column: 5 / 8;
+  color: #d8dce3;
+  font-size: 1.5rem;
+  margin-top: 6.25rem;
+}
+
+#design-started-section p {
+  grid-column: 5 / 13;
+  color: #b9bfc7;
+  font-size: 1.125rem;
+  margin-top: 1.25rem;
+  margin-bottom: 14.625rem;
+}
+
+#design-started-section .container {
+  grid-column: 5/ 13;
+  justify-self: center;
+  position: absolute;
+  top: 25.25rem;
+}
+
+/* === Experiment section === */
+#experiment-section {
+  background: #ffffff;
+}
+
+#experiment-section h3 {
+  grid-column: 2 / 5;
+  color: #252525;
+  margin-top: 30.4375rem;
+  font-size: 1.5rem;
+}
+
+#experiment-section p {
+  grid-column: 2 / 6;
+  color: #697077;
+  font-size: 1.125rem;
+  margin-top: 1.25rem;
+}
+
+#experiment-section .img-container {
+  grid-column: 7 / 17;
+  margin-bottom: 6.25rem;
+}
+
+#experiment-section img {
+  /* grid-column: 7 / 17; */
+  width: 100%;
+  /* margin-bottom: 6.25rem; */
+}
+
+/* === Result page section === */
+#result-page-section {
+  background: #1e1f24;
+}
+
+#result-page-section h3 {
+  grid-column: 5 / 7;
+  color: #d8dce3;
+  font-size: 1.5rem;
+  margin-top: 6.25rem;
+}
+
+#result-page-section p {
+  grid-column: 5 / 13;
+  color: #9fa7a7;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3.75rem;
+}
+
+#result-page-section .img-container {
+  grid-column: 2 / 16;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  margin-bottom: 6.25rem;
+}
+#result-page-section .img-container img:nth-child(1) {
+  grid-column: 1 / 5;
+}
+#result-page-section .img-container img:nth-child(2) {
+  grid-column: 6 / 10;
+}
+#result-page-section .img-container img:nth-child(3) {
+  grid-column: 11 / 15;
+}
+
+/* === Big image section 2 === */
+#big-img-section2 {
+  background: #1e1f24;
+}
+
+#big-img-section2 img {
+  grid-column: 1 / 17;
+  justify-self: center;
+}
+
+/* === next-project-section === */
+#next-project-section {
+  background: #f2f4f8;
+}
+
+#next-project-section .project-name {
+  grid-column: 3 / 11;
+  grid-row: 5 / 6;
+  align-self: flex-end;
+}
+
+#next-project-section .project-description-link {
+  color: #000000;
+}
+
+#next-project-section .line {
+  background: #b9bfc7;
+}
+
+#next-project-section .small-words {
+  color: #252525;
+}
