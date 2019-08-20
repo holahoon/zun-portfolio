@@ -1,5 +1,14 @@
 ## Jun Sung An - A product designer at IBM
 
-#### Initially started the portfolio using ReactJS and layouts with the design given by him.
+## [View live](https://www.junsungan.com/)
 
-#### ** Note **, the above portfolio link and this repo's code are not same because this project was handed over to Jun Sung An so that he could finish the pages with the images and contents of his own and adjust it to his likings.
+## Project Overview
+- This code only shows what I initially started. The code used on the above website is quite different from the initial code.
+- Initially started the portfolio project with the given design layouts provided from the designer.
+- This was the very first project to work on in collaboration with a designer which taught me alot.
+- I tried to implement the design by using CSS grid, but later found out it was better to use flex-box.
+- Eventually, the portfolio was brought to an end by the designer.
+
+## Built With
+- [React](https://github.com/facebook/react) - Front End library
+- [React Router](https://github.com/ReactTraining/react-router) - Routing to navigate through different components
