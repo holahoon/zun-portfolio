@@ -1,6 +1,6 @@
 ## Jun Sung An - A product designer at IBM
 
-## [View live](https://www.junsungan.com/)
+## [View Live](https://www.junsungan.com/)
 
 ## Project Overview
 - This code only shows what I initially started. The code used on the above website is quite different from the initial code.
