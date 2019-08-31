@@ -2,6 +2,10 @@
 
 ## [View Live](https://www.junsungan.com/)
 
+## Note
+* This project is deployed from Jun Sung An's repo *
+* This code was just an initial start of his project *
+
 ## Project Overview
 - This code only shows what I initially started. The code used on the above website is quite different from the initial code.
 - Initially started the portfolio project with the given design layouts provided from the designer.
